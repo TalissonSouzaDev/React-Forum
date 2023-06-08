@@ -1,0 +1,60 @@
+.card-principal{
+    background-color: rgb(252, 252, 252);
+    border: 1px solid black;
+    border-radius: 15px 15px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+.card-principal:hover{
+ box-shadow: 2px 5px 5px black;
+}
+.title-card{
+    padding-top: 5px;
+    padding-left: 2%;
+    font-weight: bold;
+}
+.body{
+    padding-left: 5%;
+    font-size: 16px;
+    margin-bottom: 5%;
+}
+.element-header{
+ 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.qnt {
+    padding-right: 15px;
+    margin-top: 25px;
+
+}
+
+
+.qnt > i,span {
+    margin-left: 6px;
+    margin-right:5px;
+   
+}
+
+.adminbutton{
+margin: 2% 2%;
+
+}
+.adminbutton > button {
+    margin-right: 15px;
+}
+
+
+@media screen and (max-width: 780px) {
+   .body{
+    font-size: 16px;
+   }
+   .title-card{
+    font-size: 20px;
+}
+
+    
+}

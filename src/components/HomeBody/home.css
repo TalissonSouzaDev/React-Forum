@@ -1,0 +1,39 @@
+.homebody{
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.homebody h1 {
+    font-size: 60px;
+}
+
+.title-home{
+    text-align: justify;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-top: 5%;
+    font-size: 18px;
+}
+.homebody a{
+    font-size: 25px;
+}
+
+
+@media screen and (max-width: 780px) {
+    .homebody h1{
+        font-size: 30px;
+    }
+    .homebody{
+        padding-top: 2rem;
+    }
+    .title-home{
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    .homebody a{
+        font-size: 20px;
+    }
+    
+}
